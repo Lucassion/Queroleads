@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quero Leads</title>
+    <link rel="stylesheet" href="assets/css/estilo.css">
+</head>
+<body>
+    <fieldset>
+        <h1>Quero Leads</h1>
+        <form class="" action="index.html" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" placeholder="Digite seu nome" required></input>
+            <label for="email">Email:</label>
+            <input type="email" name="email" placeholder="Digite sei e-mail">
+            <label for="telefone">Telefone:</label>
+            <input type="tel" name="telefone" placeholder="4002-8922">
+            <label for="estado">Estado:</label>
+            <select name="estado">
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+            </select>
+            <label for="cep">Cep:</label>
+            <input type="text" name="cep" placeholder="12345678"></input>
+            
+            <label for="rua">Rua:</label>
+            <input type="text" name="rua" placeholder="Digite sua rua"></input>
+            
+            <label for="cidade">Cidade:</label>
+            <input type="text" name="cidade" placeholder="Digite sua cidade"></input>
+            
+            <label for="estado">Estado:</label>
+            <input type="text" name="estado" placeholder="Coloque seu estado"></input>
+            
+            <label for="logradouro">Logradouro:</label>
+            <input type="number" name="logradouro" placeholder="Digite seu logradouro"></input>
+            
+            <label for="complemento">Complemento:</label>
+            <input type="text" name="complemento" placeholder="Complemento"></input>
+            
+            <label for="genero">Genero:</label>
+            <input type="radio" name="genero" value="masculino" required >Masculino
+            <input type="radio" name="genero" value="feminino">Feminino
+            <input type="radio" name="genero" value="outro">Outro
+            
+            <label for="gostos">Selecione os itens que você mais gosta</label>
+            <input type="checkbox" name="musica" value="musica">Musica
+            <input type="checkbox" name="teatro" value="teatro">Teatro
+            <input type="checkbox" name="esportes" value="esportes">Esportes
+            
+            <label for="comentario">Comente o que você achou disso tudo:</label>
+            <textarea name="comentario" cols="80" rows="8"></textarea>
+            
+            <input type="submit" name="enviar" value="Enviar">
+        </form>
+    </fieldset>
+</body>
+</html>
